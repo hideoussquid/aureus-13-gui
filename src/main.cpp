@@ -4672,8 +4672,10 @@ std::string GetWarnings(const std::string& strFor)
     const string uiAlertSeperator = "<hr />";
 
     if (!CLIENT_VERSION_IS_RELEASE) {
-        strStatusBar = "This is a pre-release test build - use at your own risk - do not use for mining or merchant applications";
-        strGUI = _("This is a pre-release test build - use at your own risk - do not use for mining or merchant applications");
+//         strStatusBar = "This is a pre-release test build - use at your own risk - do not use for mining or merchant applications";
+//         strGUI = _("This is a pre-release test build - use at your own risk - do not use for mining or merchant applications");
+        strStatusBar = "";
+        strGUI = _("");
     }
 
     if (GetBoolArg("-testsafemode", DEFAULT_TESTSAFEMODE))
