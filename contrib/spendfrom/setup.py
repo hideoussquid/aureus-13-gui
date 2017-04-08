@@ -1,12 +1,12 @@
-# Copyright (c) 2013 The Bitcoin Core developers
+# Copyright (c) 2013 The Aureus Core developers
 # Distributed under the MIT software license, see the accompanying
 # file COPYING or http://www.opensource.org/licenses/mit-license.php.
 from distutils.core import setup
-setup(name='btcspendfrom',
+setup(name='AURspendfrom',
       version='1.0',
-      description='Command-line utility for bitcoin "coin control"',
+      description='Command-line utility for aureus "coin control"',
       author='Gavin Andresen',
-      author_email='gavin@bitcoinfoundation.org',
+      author_email='gavin@aureusfoundation.org',
       requires=['jsonrpc'],
       scripts=['spendfrom.py'],
       )

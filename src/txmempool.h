@@ -1,10 +1,10 @@
 // Copyright (c) 2009-2010 Satoshi Nakamoto
-// Copyright (c) 2009-2015 The Bitcoin Core developers
+// Copyright (c) 2009-2015 The Aureus Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_TXMEMPOOL_H
-#define BITCOIN_TXMEMPOOL_H
+#ifndef AUREUS_TXMEMPOOL_H
+#define AUREUS_TXMEMPOOL_H
 
 #include <list>
 #include <memory>
@@ -711,4 +711,4 @@ struct TxCoinAgePriorityCompare
     }
 };
 
-#endif // BITCOIN_TXMEMPOOL_H
+#endif // AUREUS_TXMEMPOOL_H

@@ -1,9 +1,9 @@
-// Copyright (c) 2014 The Bitcoin Core developers
+// Copyright (c) 2014 The Aureus Core developers
 // Distributed under the MIT software license, see the accompanying
 // file COPYING or http://www.opensource.org/licenses/mit-license.php.
 
-#ifndef BITCOIN_CRYPTO_HMAC_SHA512_H
-#define BITCOIN_CRYPTO_HMAC_SHA512_H
+#ifndef AUREUS_CRYPTO_HMAC_SHA512_H
+#define AUREUS_CRYPTO_HMAC_SHA512_H
 
 #include "crypto/sha512.h"
 
@@ -29,4 +29,4 @@ public:
     void Finalize(unsigned char hash[OUTPUT_SIZE]);
 };
 
-#endif // BITCOIN_CRYPTO_HMAC_SHA512_H
+#endif // AUREUS_CRYPTO_HMAC_SHA512_H

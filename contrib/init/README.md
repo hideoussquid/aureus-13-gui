@@ -1,11 +1,11 @@
 Sample configuration files for:
 
-SystemD: bitcoind.service
-Upstart: bitcoind.conf
-OpenRC:  bitcoind.openrc
-         bitcoind.openrcconf
-CentOS:  bitcoind.init
-OS X:    org.bitcoin.bitcoind.plist
+SystemD: aureusd.service
+Upstart: aureusd.conf
+OpenRC:  aureusd.openrc
+         aureusd.openrcconf
+CentOS:  aureusd.init
+OS X:    org.aureus.aureusd.plist
 
 have been made available to assist packagers in creating node packages here.
 
