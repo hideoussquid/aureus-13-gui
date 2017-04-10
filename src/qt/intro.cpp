@@ -242,7 +242,8 @@ void Intro::setStatus(int status, const QString &message, quint64 bytesAvailable
         } else {
             ui->freeSpace->setStyleSheet("");
         }
-        ui->freeSpace->setText(freeString + ".");
+//         ui->freeSpace->setText(freeString + ".");
+        ui->freeSpace->setText(freeString + ""); 
     }
     /* Don't allow confirm in ERROR state */
     ui->buttonBox->button(QDialogButtonBox::Ok)->setEnabled(status != FreespaceChecker::ST_ERROR);
