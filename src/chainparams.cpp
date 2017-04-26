@@ -121,7 +121,7 @@ public:
         vSeeds.clear();
 
         // Note that of those with the service bits flag, most only support a subset of possible options
-        vSeeds.push_back(CDNSSeedData("explorer.aureus.cc", "54.169.216.99", true)); // Default explorer
+        vSeeds.push_back(CDNSSeedData("explorer.aureus.cc", "104.27.181.71", true)); // Default explorer
 
         base58Prefixes[PUBKEY_ADDRESS] = std::vector<unsigned char>(1,23);
         base58Prefixes[SCRIPT_ADDRESS] = std::vector<unsigned char>(1,28);
